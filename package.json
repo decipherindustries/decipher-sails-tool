@@ -1,6 +1,6 @@
 {
   "name": "decipher-sails-tool",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Alternative CLI for sails.js that initiates a new project with various modifications",
   "main": "index.js",
   "keywords": ["decipher", "decipher industries", "sails", "sails.js", "cli"],
