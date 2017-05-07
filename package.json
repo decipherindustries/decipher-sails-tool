@@ -1,0 +1,27 @@
+{
+  "name": "decipher-sails-tool",
+  "version": "0.1.9",
+  "description": "Alternative CLI for sails.js that initiates a new project with various modifications",
+  "main": "index.js",
+  "keywords": ["decipher", "decipher industries", "sails", "sails.js", "cli"],
+  "author": "Fabian Tollenaar <fabian@decipher.industries> (https://decipher.industries)",
+  "license": "ICS",
+  "preferGlobal": true,
+  "bin": {
+    "decipher-sails": "./bin/sails-tool"
+  },
+  "dependencies": {
+    "debug": "^2.6.6",
+    "merge-dirs": "^0.2.1",
+    "mkdirp": "^0.5.1",
+    "which": "^1.2.14",
+    "yargs": "^8.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decipherindustries/decipher-sails-tool"
+  },
+  "bugs": {
+    "url": "https://github.com/decipherindustries/decipher-sails-tool/issues"
+  }
+}
